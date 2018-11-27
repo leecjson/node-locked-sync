@@ -1,6 +1,6 @@
 {
-  "name": "semsync",
-  "version": "1.0.3",
+  "name": "locked-sync",
+  "version": "1.0.0",
   "description": "Synchronize and serialize a piece of code",
   "main": "index.js",
   "scripts": {
@@ -8,13 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/leecjson/node-semsync.git"
+    "url": "git+https://github.com/leecjson/node-locked-sync.git"
   },
   "keywords": [
     "synchronization",
     "synchronize",
     "sync",
     "lock",
+    "locked",
     "atomic",
     "mutex",
     "critical",

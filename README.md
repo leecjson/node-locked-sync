@@ -1,6 +1,6 @@
 # Usage
 ```shell
-npm install --save semsync
+npm install --save locked-sync
 ```
 
 Synchronize and serialize a piece of code.
@@ -22,10 +22,10 @@ user1: redis.set('key', val + 1) => 2
 user2: redis.set('key', val + 1) => 2
 ```
 
-So, you can use semsync to avoid it.
+So, you can use locked-sync to avoid it.
 ```javascript
-const semsync = require('semsync');
-const sync = semsync();
+const lockedSync = require('locked-sync');
+const sync = lockedSync();
 
 function getAndSet() {
   sync().then(end => {
@@ -40,8 +40,8 @@ getAndSet(); getAndSet(); getAndSet(); getAndSet(); // almost same time to get a
 ```
 
 ```javascript
-const semsync = require('semsync');
-const sync = semsync();
+const lockedSync = require('locked-sync');
+const sync = lockedSync();
 
 async function getAndSet() {
   const end = await sync();
