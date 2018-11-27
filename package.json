@@ -1,5 +1,5 @@
 {
-  "name": "sync-block",
+  "name": "semsync",
   "version": "1.0.0",
   "description": "Synchronize and serialize a piece of code",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/leecjson/node-sync-block.git"
+    "url": "git+https://github.com/leecjson/node-semsync.git"
   },
   "keywords": [
     "synchronization",
@@ -21,9 +21,5 @@
     "section"
   ],
   "author": "leecjson",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/leecjson/node-sync-block/issues"
-  },
-  "homepage": "https://github.com/leecjson/node-sync-block#readme"
+  "license": "MIT"
 }

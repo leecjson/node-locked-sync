@@ -22,10 +22,10 @@ user1: redis.set('key', val + 1) => 2
 user2: redis.set('key', val + 1) => 2
 ```
 
-So, you can use sync-block to avoid it.
+So, you can use semsync to avoid it.
 ```javascript
-const syncBlock = require('sync-block');
-const sync = syncBlock();
+const semsync = require('semsync');
+const sync = semsync();
 
 function getAndSet() {
   sync().then(end => {
@@ -40,8 +40,8 @@ get(); get(); get(); get(); // almost same time to get and set
 ```
 
 ```javascript
-const syncBlock = require('sync-block');
-const sync = syncBlock();
+const semsync = require('semsync');
+const sync = semsync();
 
 async function getAndSet() {
   const end = await sync();
