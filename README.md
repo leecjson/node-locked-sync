@@ -1,4 +1,8 @@
 # Usage
+```shell
+npm install --save sync-block
+```
+
 Synchronize and serialize a piece of code.
 
 Why do you need this in javascript or Node.js.
