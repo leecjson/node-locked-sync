@@ -49,7 +49,7 @@ async function getAndSet() {
     const val = await redis.get('key');
     await redis.set('key', val + 1);
   } finally {
-    end();
+    end(); // Always put it in finally block.
   }
 }
 
