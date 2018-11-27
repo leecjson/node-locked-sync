@@ -1,6 +1,6 @@
 # Usage
 ```shell
-npm install --save sync-block
+npm install --save semsync
 ```
 
 Synchronize and serialize a piece of code.
