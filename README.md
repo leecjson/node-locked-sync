@@ -36,7 +36,7 @@ function getAndSet() {
   });
 }
 
-get(); get(); get(); get(); // almost same time to get and set
+getAndSet(); getAndSet(); getAndSet(); getAndSet(); // almost same time to get and set
 ```
 
 ```javascript
@@ -53,5 +53,5 @@ async function getAndSet() {
   }
 }
 
-get(); get(); get(); get();
+getAndSet(); getAndSet(); getAndSet(); getAndSet();
 ```
