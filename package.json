@@ -1,0 +1,29 @@
+{
+  "name": "sync-block",
+  "version": "1.0.0",
+  "description": "Synchronize and serialize a piece of code",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leecjson/node-sync-block.git"
+  },
+  "keywords": [
+    "synchronization",
+    "synchronize",
+    "sync",
+    "lock",
+    "atomic",
+    "mutex",
+    "critical",
+    "section"
+  ],
+  "author": "leecjson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leecjson/node-sync-block/issues"
+  },
+  "homepage": "https://github.com/leecjson/node-sync-block#readme"
+}
